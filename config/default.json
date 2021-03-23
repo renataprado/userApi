@@ -1,0 +1,9 @@
+{
+    "userImport": {
+        "hour": "17",
+        "minute": "34"
+    },
+    "mongodb": {
+        "uri": "mongodb+srv://renata-user:renata-pw@cluster0.pgd1w.mongodb.net/usersDatabase?retryWrites=true&w=majority"
+    }
+}
