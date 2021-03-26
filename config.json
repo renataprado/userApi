@@ -5,5 +5,5 @@
     },
     "mongodb": {
         "uri": "mongodb+srv://"
-    }r
+    }
 }
