@@ -3,7 +3,8 @@ const supertest = require("supertest");
 const request = supertest(app);
 
 const mongoose = require("mongoose");
-const uri = "mongodb+srv://renata-user:renata-pw@cluster0.pgd1w.mongodb.net/usersDatabase?retryWrites=true&w=majority";
+const config = require('./config.json');
+const uri = config.mongodb.uri;
 
 beforeAll(async () => {
   await mongoose.connect(uri, { useNewUrlParser: true });
