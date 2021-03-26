@@ -9,8 +9,8 @@ Desenvolver uma REST API que:
 - Tenha um sistema de atualização que uma vez ao dia importe dados da API Random User https://randomuser.me/api e grave no banco de dados.
 
     Cada usuário deve obrigatóriamente conter os seguintes campos:
-        imported_t: campo do tipo Date com a dia e hora que foi importado;
-        status: campo do tipo Enum com os possíveis valores draft, trash e published;
+    - imported_t: campo do tipo Date com a dia e hora que foi importado;
+    - status: campo do tipo Enum com os possíveis valores draft, trash e published;
 
 - Possua um CRUD com os seguintes endpoints:
 
@@ -24,3 +24,19 @@ Desenvolver uma REST API que:
 
 - NodeJS
 - MongoDB
+
+## Install
+
+Install dependencies
+
+    npm install
+
+Run unit tests
+
+    npm test
+
+Start development server
+
+    npm start
+    
+  
