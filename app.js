@@ -3,9 +3,9 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const userRoutes = require('./src/routes/users.js');
 const cronTask = require('./src/usersImportCron.js');
-const config = require('config');
+const config = require('./config.json');
 
-const uri = config.get('mongodb.uri');
+const uri = config.mongodb.uri;
 
 const app = express();
 

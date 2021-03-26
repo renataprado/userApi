@@ -1,10 +1,10 @@
-const config = require('config');
+const config = require('../config.json');
 const axios = require("axios");
 const cron = require("node-cron");
 const User = require('./models/User.js');    
 
-const hour = config.get('userImport.hour');
-const minute = config.get('userImport.minute');
+const hour = config.userImport.hour;
+const minute = config.userImport.hour;
 const cronTime = minute+' '+ hour + ' '+ '* * *';
 
 async function insertUsers(number){
