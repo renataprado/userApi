@@ -1,6 +1,3 @@
-# Back-end Challenge 🏅 2021
-
-Essa solução back-end foi proposta pelo coodesh, disponível em: https://lab.coodesh.com/public-challenges/back-end-challenge-2021/
 
 ## Objetivos
 
